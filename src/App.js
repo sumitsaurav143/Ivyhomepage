@@ -7,6 +7,7 @@ import NavLink from 'react-bootstrap/NavLink';
 import Nav from 'react-bootstrap/Nav';
 import Carousel from 'react-bootstrap/Carousel';
 import Figure from 'react-bootstrap/Figure';
+import logo from './logo.png';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <div className='Header'>
         <div className='Icon'>
           <div>
-            <img src='./logo.png'></img>
+            <img src={logo}></img>
           </div>
           <div className='IconSlogan'>
             <p>Shaping the future of game~bling!</p>
@@ -104,6 +105,15 @@ function App() {
         </div>
       </div>
 
+      <div className='bodyMain21'>
+        <div className='left'>
+          Want to join our team?
+        </div>
+        <div className='right'>
+                <button>Contact Us</button>
+        </div>
+      </div>
+
       <div className='bodyMain3'>
         <div className='left'>
           <h1 className='slgn'>Our Clients</h1>
@@ -177,7 +187,7 @@ function App() {
       <div className='footer'>
       <div className='Icon'>
           <div>
-            <img src='./logo.png' className='fimg'></img>
+            <img src={logo} className='fimg'></img>
           </div>
           <div className='IconSlogan'>
             <p>Copyright © Ivy Comptech Pvt Ltd. 2022 – All rights reserved</p>
