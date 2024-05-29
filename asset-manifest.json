@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Ivyhomepage/static/css/main.f11f7bd7.css",
-    "main.js": "/Ivyhomepage/static/js/main.575a4ae8.js",
+    "main.css": "/Ivyhomepage/static/css/main.3fdd781f.css",
+    "main.js": "/Ivyhomepage/static/js/main.f28f90d8.js",
     "static/js/453.917bf523.chunk.js": "/Ivyhomepage/static/js/453.917bf523.chunk.js",
+    "static/media/logo.png": "/Ivyhomepage/static/media/logo.ee2b408be52b54591b50.png",
     "index.html": "/Ivyhomepage/index.html",
-    "main.f11f7bd7.css.map": "/Ivyhomepage/static/css/main.f11f7bd7.css.map",
-    "main.575a4ae8.js.map": "/Ivyhomepage/static/js/main.575a4ae8.js.map",
+    "main.3fdd781f.css.map": "/Ivyhomepage/static/css/main.3fdd781f.css.map",
+    "main.f28f90d8.js.map": "/Ivyhomepage/static/js/main.f28f90d8.js.map",
     "453.917bf523.chunk.js.map": "/Ivyhomepage/static/js/453.917bf523.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f11f7bd7.css",
-    "static/js/main.575a4ae8.js"
+    "static/css/main.3fdd781f.css",
+    "static/js/main.f28f90d8.js"
   ]
 }
