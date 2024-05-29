@@ -110,7 +110,7 @@ function App() {
           Want to join our team?
         </div>
         <div className='right'>
-                <button>Contact Us</button>
+                <button>Explore Career Page</button>
         </div>
       </div>
 
