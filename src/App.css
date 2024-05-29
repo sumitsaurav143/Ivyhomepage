@@ -1,38 +1,171 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+  --primary-color: orangered;
+}
+
 .App {
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+ width: 100vw;
+ min-height: 100vh;
+ background-color: black;
+ overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Icon{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  flex-direction: column;
+}
+.IconSlogan{
+  margin-top: -50px;
+  color: white;
+  margin-bottom: 50px;
+  font-family: 'Segoe UI';
+} 
+
+.Icon img{
+  height: 150px;
+}
+
+.Header{
+  background-color: rgb(0, 0, 0);
+  margin-left: 15px;
+  
+}
+
+.NavItemsMain{
+  background-color:black;
+  border-bottom: none;
+}
+
+.NavItems{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+ 
+}
+.nav-link.active{
+  background-color: var(--primary-color)!Important;
+  border: none;
+  color: var(--primary-color);
+}
+
+.bodyMain{
+  background-color: var(--primary-color);
+  height: 365px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: none;
+  margin-left: 15px;
+  border-bottom-left-radius: 50px;
+}
+
+.left, .right{
+  width: 50%;
+}
+
+.slgn{
+  font-weight: 800;
+  font-size: 90px;
+  /* margin-left: -18px; */
+  color: whitesmoke;
+}
+
+.slgnivy{
+  color: black;
+}
+
+.right img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 20px 0px 0px 20px;
+}
+.imagecrsl{
+  border: 10px solid black;
+  padding: 30px;
+  margin-right: -5px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.bodyMain2{
+  background-color: black;
+  height: 600px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: none;
+  margin-left: 15px;
+}
+
+.bodyMain2 .left img{
+  height: 480px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.bodyMain3 .right{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  
+}
+
+.bodyMain3 .left{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 88%;
+}
+
+.bodyMain3 .left .slgn{
+    font-size: 100px;
+}
+
+.footer{
+  background-color:var(--primary-color);
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: none;
+}
+
+.bodyMain3{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  height: 800px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-top: none;
 }
 
-.App-link {
-  color: #61dafb;
+.bodyMain3 .slgn{
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bodyMain3 .right img{
+  border-radius: 0px;
+}
+
+.rtImg{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fimg{
+  filter: invert(100%);
+  margin-bottom: 20px;
 }
